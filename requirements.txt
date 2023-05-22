@@ -1,4 +1,5 @@
 ﻿attrs==23.1.0
+pip==
 Automat==22.10.0
 blinker==1.6.2
 certifi==2023.5.7
@@ -10,7 +11,7 @@ constantly==15.1.0
 cryptography==40.0.2
 cssselect==1.2.0
 filelock==3.12.0
-Flask==2.2.5
+Flask==2.3.2
 hyperlink==21.0.0
 idna==3.4
 incremental==22.10.0
@@ -41,5 +42,5 @@ twisted-iocpsupport==1.0.3
 typing_extensions==4.5.0
 urllib3==2.0.2
 w3lib==2.1.1
-Werkzeug==2.3.4
+Werkzeug==2.2.3
 zope.interface==6.0
