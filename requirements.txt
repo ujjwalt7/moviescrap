@@ -1,5 +1,5 @@
 ﻿attrs==23.1.0
-pip==
+pip==23.1.2
 Automat==22.10.0
 blinker==1.6.2
 certifi==2023.5.7
