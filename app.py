@@ -13,6 +13,7 @@ def home():
 def catpage(cat,page):
     spider_name = "mem"
     os.system("scrapy crawl "+ spider_name+ ' -a cat="'+cat+'?page='+page+'" -O output.json')
+    os.system('ls')
     # os.system("cd movies && scrapy crawl "+ spider_name+ ' -a cat="'+cat+'" -O output.json')
     with open("./output.json") as items_file:
         return json.load(items_file)
