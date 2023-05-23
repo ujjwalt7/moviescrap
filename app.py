@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Hello'
+    return 'Hello World'
 
 @app.route("/cat/<cat>/<page>")
 def catpage(cat,page):
